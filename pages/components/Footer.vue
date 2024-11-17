@@ -13,23 +13,23 @@
             <div class="font-serif grid grid-cols-1">
               <NuxtLink to="/">Home</NuxtLink>
               <NuxtLink to="/shop">Shop</NuxtLink>
-              <NuxtLink to="/">About Us</NuxtLink>
+              <NuxtLink to="/about">About Us</NuxtLink>
             </div>
           </div>
-          
+
           <div>
-            <h1 class="mb-2 text-lg italic font-basker">Products</h1>
+            <h1 class="mb-2 text-lg italic font-basker">Product Category</h1>
             <div class="font-serif grid grid-cols-1">
-              <div>Baju</div>
-              <div>Dress</div>
-              <div>Kain</div>
-              <div>Aksesoris</div>
+              <NuxtLink to="/shop">Pria</NuxtLink>
+              <NuxtLink to="/shop">Wanita</NuxtLink>
+              <NuxtLink to="/about">Aksesoris</NuxtLink>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    <NuxtLink to="/team" class="w-full py-2 italic text-center text-white bg-black font-basker">#INDONESIASOGEH</NuxtLink>
+
+    <NuxtLink to="/team" class="w-full py-2 italic text-center text-white bg-black font-basker">#INDONESIASOGEH
+    </NuxtLink>
   </footer>
 </template>
