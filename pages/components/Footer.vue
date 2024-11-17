@@ -22,7 +22,7 @@
             <div class="font-serif grid grid-cols-1">
               <NuxtLink to="/shop">Pria</NuxtLink>
               <NuxtLink to="/shop">Wanita</NuxtLink>
-              <NuxtLink to="/about">Aksesoris</NuxtLink>
+              <NuxtLink to="/shop">Aksesoris</NuxtLink>
             </div>
           </div>
         </div>
